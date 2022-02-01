@@ -11,7 +11,7 @@ header {
     background-color: lightslategray;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
 }
@@ -31,9 +31,57 @@ header > nav > ul{
 }
 
 header > nav > ul > li > a {
+    background-color: limegreen;
     color: blue;
+    padding: 10px;
 }
 
 .link:hover {
     font-size: 1.5em;
+}
+
+.camisanike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1 1 206px;
+    margin: auto;
+}
+
+.camisanike img {
+    border: 1px solid black;
+    
+}
+
+.camisanike p {
+    margin-bottom: 10px;
+}
+
+h1#camisasdanike {
+    margin: 30px;
+    text-align: center;
+    box-shadow: 4px 4px 4px black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: limegreen;
+}
+
+#div1 {
+    display: inline-flex;
+    align-items: center;
+}
+
+#div2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+#div2 p {
+    margin-left: 10px;
 }
