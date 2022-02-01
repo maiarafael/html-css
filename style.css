@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+header > h1 {
+    padding-top: 10px;
+    background-color: rgb(185, 42, 42);
+}
+
+
+header > nav > ul{
+    padding-top: 10px;
+    display: inline-flex;
+    gap: 10px;
+    background-color: lime;
+}
+
+header > nav > ul > li > a {
+    color: blue;
+}
+
+.link:hover {
+    font-size: 1.5em;
+}
